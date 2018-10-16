@@ -1,11 +1,11 @@
 let zmienna1 = 'Uwielbiam JavaScript';
 let zmienna2 = 'Jestem świetnym programistą';
-function longer(zmienna1, zmienna2) {
-    if (zmienna1 > zmienna2) {
-    console.log('Uwielbiam JavaScript');
+function longer(pierwsza, druga) {
+    if (pierwsza.length > druga.length) {
+    return 'Uwielbiam JavaScript';
 }
     else {
-        console.log('Jestem świetnym programistą')
+        return'Jestem świetnym programistą';
     }
 }
-longer();
+console.log(longer(zmienna1, zmienna2));
